@@ -1,2 +1,2 @@
 # Ditch
-Did you forget to fill that out or can we ditch that? 
+Did you forget to save that or can we ditch that? 
