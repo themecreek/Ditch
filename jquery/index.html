@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ditch</title>
+        <meta charset="UTF-8">
+        <link rel="icon" href="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">     
+      
+    </head>
+    <body>
+  <script src="ditch.jquery.js"></script>
+        
+    <h1>Ditch - Jquery$$</h1>
+    <div>This app shows a confirmation pop up before allowing you to close the browser window when you have unsaved data in a form.</div>
+    
+    <form action="./search.php" method="get" id="search">
+				<fieldset>
+					<input name="keywords" id="keywords" type="search" maxlength="128" title="Search for keywords" class="inputbox search tiny" size="20" value="" placeholder="Search…"><span title="clear" class="clearable" style="display: none;"></span>
+					<button class="button icon-button search-icon" type="submit" title="Search" disabled="">Search</button>
+					<a href="./search.php" class="button icon-button search-adv-icon" title="Advanced search">Advanced search</a>
+					
+				</fieldset>
+				</form>
+    
+  <form action="./ucp.php?mode=register" method="post" id="register"> 
+<div class="panel">
+	<div class="inner">
+
+	<h2>Working Board - Registration</h2>
+
+	<fieldset class="fields2">
+				<dl>
+		<dt><label for="username">Username:</label><br><span>Username must be between 3 characters and 20 characters long and use only letter or number characters.</span></dt>
+		<dd><input type="text" tabindex="1" name="username" id="username" size="25" value="" class="inputbox autowidth" title="Username"><span title="clear" class="clearable" style="display: none;"></span></dd>
+	</dl>
+	<dl>
+		<dt><label for="email">Email address:</label></dt>
+		<dd><input type="email" tabindex="2" name="email" id="email" size="25" maxlength="100" value="" class="inputbox autowidth" title="Email address" autocomplete="off"><span title="clear" class="clearable" style="display: none;"></span></dd>
+	</dl>
+	<dl>
+		<dt><label for="new_password">Password:</label><br><span>Password must be between 6 characters and 100 characters long, must contain letters in mixed case and must contain numbers.</span></dt>
+		<dd><input type="password" tabindex="4" name="new_password" id="new_password" size="25" value="" class="inputbox autowidth" title="New password" autocomplete="off"><span title="clear" class="clearable" style="display: none;"></span><div id="password_strength"></div></dd>
+	</dl>
+	<dl>
+		<dt><label for="password_confirm">Confirm password:</label></dt>
+		<dd><input type="password" tabindex="5" name="password_confirm" id="password_confirm" size="25" value="" class="inputbox autowidth" title="Confirm password" autocomplete="off"><span title="clear" class="clearable" style="display: none;"></span></dd>
+	</dl>
+		<hr>
+		
+		</fieldset>
+	</div>
+</div>
+
+
+<div class="panel">
+	<div class="inner">
+	
+	<fieldset class="submit-buttons">
+		<input type="reset" value="Reset" name="reset" class="button2"><span title="clear" class="clearable" style="display: none;"></span>&nbsp;
+		<input type="submit" tabindex="9" name="submit" id="submit" value="Submit" class="button1 default-submit-action"><span title="clear" class="clearable" style="display: none;"></span>   
+	</fieldset>
+	
+	</div>
+</div>
+</form>
+    </body>
+</html>
